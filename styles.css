@@ -4,6 +4,9 @@
     font-size: 'Poppins' , sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background: #000000;
@@ -376,12 +379,12 @@ nav ul li a:hover::after{
     border-radius: 7px;
     text-decoration: none;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.2), #ff004f);
+    background-color: #ff004f;
 }
 
 
 form input , form textarea{
-    width: 120%;
+    width: 100%;
     border: 0;
     outline: none;
     background: #262626;
@@ -409,14 +412,28 @@ form .btn3{
 
 
 .copyright{
-    width: 120%;
+    width: 111%;
     background-color: #262626;
     text-align: center;
-    padding: 25px 0;
+    padding: 18px 0;
     margin-top: 20px;
     font-weight: 300;
     
 }
 
 
-/* @media only screen and (max-with) */
+/* @media only screen and (max-width:600px){
+    #header{
+        background-image: url(IMG_20230424_225531-PhotoRoom.png-PhotoRoom.png);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+} */
+
+#msg{
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+}
